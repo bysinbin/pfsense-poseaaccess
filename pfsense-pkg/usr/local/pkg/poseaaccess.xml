@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE packagegui SYSTEM "../schema/packages.dtd">
+<packagegui>
+    <name>poseaaccess</name>
+    <version>1.0.0</version>
+    <title>Services: PoseaAccess (Kullanıcı, Cihaz Yetkilendirme &amp; İstisna Masası)</title>
+    <include_file>/usr/local/pkg/poseaaccess.inc</include_file>
+    <menu>
+        <name>PoseaAccess</name>
+        <section>Services</section>
+        <configfile>poseaaccess.xml</configfile>
+        <url>/poseaaccess.php</url>
+    </menu>
+    <tabs>
+        <tab>
+            <text>Erişim &amp; Yetki</text>
+            <url>/poseaaccess.php</url>
+            <active/>
+        </tab>
+    </tabs>
+</packagegui>
